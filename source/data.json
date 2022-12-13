@@ -1,26 +1,26 @@
 {
-    "landingpage":{
-       "title":"Logg inn",
-       "desciption":"Få tilgang til journalsystemet Aidn med din HelseID. Systemet er under utvikling og er kun tilgjengelig for en mindre testgruppe.",
-       "loginBtn":"Logg inn med HelseID",
-       "accessBtn":"Be om tilgang"
+  "landingpage": {
+    "title": "Logg inn",
+    "desciption": "Få tilgang til journalsystemet Aidn med din HelseID. Systemet er under utvikling og er kun tilgjengelig for en mindre testgruppe.",
+    "loginBtn": "Logg inn med HelseID",
+    "accessBtn": "Be om tilgang"
+  },
+  "menu": {
+    "home": "text",
+    "patient": "Pasienter",
+    "tasks": "Oppgaver",
+    "messages": "Meldinger",
+    "search": "Søk"
+  },
+  "overview": {
+    "title": "Innlegg",
+    "filterBar": {
+      "allDepartments": "Alle avdelinger"
     },
-    "menu":{
-       "home":"text",
-       "patient":"Pasienter",
-       "tasks":"Oppgaver",
-       "messages":"Meldinger",
-       "search":"Søk"
+    "filterField": {
+      "text": "Skriv innlegg til alle",
+      "btnTitle": "Søk"
     },
-    "overview":{
-       "title":"Innlegg",
-       "filterBar":{
-          "allDepartments":"Alle avdelinger"
-       },
-       "filterField":{
-          "text":"Skriv innlegg til alle",
-          "btnTitle":"Søk"
-       },
-       "alertMessage":"Ingen hendelser"
-    }
- }
+    "alertMessage": "Ingen hendelser"
+  }
+}
