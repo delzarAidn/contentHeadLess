@@ -1,8 +1,8 @@
 {
   "main": "source/server.ts",
   "scripts": {
-    "dev": "nodemon source/server.ts",
-    "build": "rm -rf public/ && prettier --write source/ && tsc"
+    "dev": "nodemon source/index.ts",
+    "build": "rm -rf public/ && prettier --write source/ && tsc && cp source/data.json public/data.json && cp vercel.json public/vercel.json"
   },
   "dependencies": {
     "@types/axios": "^0.14.0",
