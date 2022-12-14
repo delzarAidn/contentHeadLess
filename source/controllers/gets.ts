@@ -1,6 +1,4 @@
 import { Request, Response, NextFunction } from "express";
-import fs from "fs";
-
 interface Content {
   id: Number;
   key: string;
